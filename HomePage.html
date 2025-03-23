@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lohitha Travels</title>
+    <link rel="stylesheet" href="../HTML/HomePage.css">
+</head>
+
+<body>
+    <form>
+        <div class="billLabel">
+            <label for="billNumber">Bill Number:</label>
+        </div>
+        <div class="billNumber">
+            <input type="text" id="billNumber" name="billNumber" placeholder="Bill Number" required>
+        </div>
+        <div class="companyLabel">
+            <label for="guestName">Company Name:</label>
+        </div>
+        <div class="companyName">
+            <input type="text" id="companyName" name="companyName" placeholder="Company Name" required>
+        </div>
+        <div class="guestLabel">
+            <label for="guestName">Guest Name:</label>
+        </div>
+        <div class="guestName">
+            <input type="text" id="guestName" name="guestName" placeholder="Guest Name" required>
+        </div>
+        <div class="dateLabel">
+            <label for="date">Date Of Travel</label>
+        </div>
+        <div class="date">
+            <input type="date" id="dateOfTravel" required>
+        </div>
+        <div class="vehicleTypeLabel">
+            <label for="vehicleType">Vehicle Type:</label>
+        </div>
+        <div class="vehicleType" required>
+            <select id="vehicleType">
+                <option value="Innova">Innova</option>
+                <option value="Sedan">Sedan</option>
+            </select>
+        </div>
+        <div class="airportDropLabel">
+            <label for="airportDrop">Airport Drop:</label>
+        </div>
+        <div class="airportDrop">
+            <input type="checkbox" id="airportDrop">
+        </div>
+        <div class="airportPickupLabel">
+            <label for="airportPickup">Airport Pickup:</label>
+        </div>
+        <div class="airportPickup">
+            <input type="checkbox" id="airportPickup">
+        </div>
+        <div class="travelLabel">
+            <label for="travel">Travel Details</label>
+        </div>
+        <div class="Travel">
+            <input type="text" id="travel" placeholder="Travel Details">
+        </div>
+        <div class="SKM">
+            <label for="SKM">Starting Kilometers</label>
+        </div>
+        <div class="statKM">
+            <input type="number" id="startKM" placeholder="Starting Kilometers">
+        </div>
+        <div class="EKM">
+            <label for="EKM">Closing Kilometers</label>
+        </div>
+        <div class="endKM">
+            <input type="number" id="endKM" placeholder="Closing Kilometers">
+        </div>
+        <div class="startTime">
+            <label for="startTime">Starting Time</label>
+        </div>
+        <div>
+            <input type="time" id="startTime">
+        </div>
+        <div class="endTime">
+            <label for="endTime">Closing Time</label>
+        </div>
+        <div>
+            <input type="time" id="endTime">
+        </div>
+        <div class="parkingLabel">
+            <label for="parking">Parking</label>
+        </div>
+        <div class="parking">
+            <input type="number" , id="parking" placeholder="Parking Charges">
+        </div>
+        <div class="tollLabel">
+            <label for="toll">Toll</label>
+        </div>
+        <div class="toll">
+            <input type="number" , id="toll" placeholder="Toll Charges">
+        </div>
+        <div class="carNumberLabel">
+            <label for="carNumber">Car No :</label>
+        </div>
+        <div class="carNumber">
+            <input type="text" name="carNumber" id="carNumber" placeholder="Vehicel Number">
+        </div>
+        <div class="calculate">
+            <input type="submit" value="Calculate">
+        </div>
+        <div class="export">
+            <input type="button" value="Export" placeholder="">
+        </div>
+
+        <div id="resultArea"></div>
+        <script src="../HTML/java.js"></script>
+    </form>
+</body>
+
+</html>
